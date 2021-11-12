@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgba(128, 128, 128, 0.212);
+      }
+      .korzinka,
+      .korzinka2 {
+        width: 290px;
+        margin-top: 2px;
+      }
+
+      .korzinka .top {
+        background-color: #f2f2f2;
+        padding: 12px;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+      }
+      .korzinka2 .top {
+        background-color: white;
+        padding: 1px;
+        border-radius: 5px 5px 0 0;
+      }
+      .bottom {
+        background-color: #ff9846;
+        padding: 12px;
+        text-align: center;
+        border-radius: 0 0 5px 5px;
+      }
+      .korzinka .header {
+        font-size: 24px;
+      }
+      .korzinka2 .header {
+        font-size: 14px;
+        color: lightslategrey;
+        text-align: center;
+        font-family: sans-serif;
+      }
+      .korzinka .text {
+        color: lightslategrey;
+      }
+      .korzinka2 .text {
+        color: black;
+      }
+      .korzinka2 .bottom .text {
+        /* background-color: #ff9846; */
+        color: white;
+        font-family: sans-serif;
+      }
+      .korzinka2 .top .text {
+        margin-left: 10px;
+      }
+      .korzinka .bottom .text {
+        color: white;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <center><div class="korzinka">
+      <div class="top">
+        <p class="header">Ваша корзина пуста</p>
+        <p class="text">Добавить что нибудь.</p>
+      </div>
+      <div class="bottom"><p class="text">Бесплатная доставка</p></div>
+    </div>
+    <div class="korzinka2">
+      <div class="top">
+        <p class="header">Введите ваш адрес</p>
+        <p class="text">Ул. Пушкина д.20</p>
+      </div>
+      <div class="bottom">
+        <p class="text">
+          60 минут <br />
+          Мин.заказ-200 сом
+        </p>
+      </div>
+    </div></center>
+  </body>
+</html>
